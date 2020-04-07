@@ -1,4 +1,4 @@
-package main //executable
+package main //executable, program's entry point
 
 import (
 	"log"
@@ -8,7 +8,7 @@ import (
 )
 
 func init() { //all init functions to be called before the main function
-	log.SetOutput(os.Stdout) //logger writes onto stderr device by default
+	log.SetOutput(os.Stdout) //logger writes onto stderr (standard error stream) device by default
 }
 
 func main() { //again, the entry point of the program is here
