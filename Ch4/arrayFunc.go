@@ -8,6 +8,6 @@ func main() {
 	foo(&array) //parse a pointer to the array
 }
 
-func foo(array *[1e6]int) { //
+func foo(array *[1e6]int) {
 	fmt.Println(array)
 }
